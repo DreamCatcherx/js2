@@ -39,6 +39,7 @@ function dabruneba(){
 };
 console.log(dabruneba());
 
+
 5.
 let array =[1,2,3,4,5,6,7,8,9,10];
 for(let item of array){
@@ -54,4 +55,22 @@ for(let item of numbers){
         break;
     }
 }
+7.
+//1
+let arrayx = ["html", "css", "python","javascript", "bootstrap"];
+for(i = 0; i < arrayx.length; i++){
+    if(arrayx[i].length > 4 && arrayx[i].includes("av")){
+        console.log(arrayx[i]);
+    }
+}
+
+//2
+let arrayz = ["html", "css", "python","javascript", "bootstrap"];
+for(let item of arrayz){
+    if(item.length > 4 && item.includes("av")){
+        console.log(item)
+    }
+}
+
+
 
